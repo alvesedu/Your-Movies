@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.listar-filmes{
+  margin: 15PX;
+}
+
+.listar-filmes article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.listar-filmes strong{
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+
+.listar-filmes img{
+  width: 800px;
+  max-height: 350px;
+}
+
+.listar-filmes article a{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: brown;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
